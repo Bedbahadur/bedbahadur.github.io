@@ -1,0 +1,93 @@
+.titl{
+    float: left;
+    padding-top: 15%;
+    margin-left: 20%;
+}
+
+
+.titl h1{
+    color:#ffd100 ;
+    font-size: 100px;
+    font-family: 'Press Start 2P';
+    text-shadow: 0 10px #cb9f00;;
+
+}
+
+.text{
+    float: right;
+    padding-top: 13%;
+    margin-right: 17%;
+
+
+}
+.text p{
+    font-size: 30px;
+
+    font-family: 'Quantico';
+    color: white;
+}
+.text h1{
+    font-family: 'Stalinist One';
+}
+.navbar-brand h1{
+    font-family: 'Press Start 2P';
+    color: #ffd100;
+    font-size: 20px;
+    text-shadow: 0 2px #cb9f00;;
+    
+}
+.download{
+    padding-top: 48%;
+}
+.download p{
+    text-align: center;
+}
+.android{
+    background-color: white;
+    width: 30%;
+    float: left;
+    box-shadow: 0 4px #cccccc;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-left: 5%;
+}
+
+.android h1{
+    text-align: center;
+}
+.ios{
+    background-color: white;
+    width: 30%;
+    float: right;
+    box-shadow: 0 4px #cccccc;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-right: 5%;
+}
+.ios h1{
+    text-align: center;
+}
+@media screen and (max-width:600px){
+    .titl{
+        margin-left:10%;
+    }
+    .titl h1{
+        font-size: 40px;
+        width: 40%;
+        text-shadow: 0px 3px #cb9f00 ;
+    }
+    .text{
+        margin-right: 10%;
+    }
+
+    .text h1{
+        font-size: 15px;
+    }
+    .text p{
+        font-size: 10px;
+
+    }
+    .download h1{
+        font-size: 20px;
+    }
+}
