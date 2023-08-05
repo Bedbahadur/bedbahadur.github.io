@@ -46,7 +46,7 @@
     background-color: white;
     width: 30%;
     float: left;
-    box-shadow: 0 4px #cccccc;
+    box-shadow: 0 8px #cccccc;
     border-radius: 10px;
     padding-bottom: 10px;
     margin-left: 5%;
@@ -59,7 +59,7 @@
     background-color: white;
     width: 30%;
     float: right;
-    box-shadow: 0 4px #cccccc;
+    box-shadow: 0 8px #cccccc;
     border-radius: 10px;
     padding-bottom: 10px;
     margin-right: 5%;
