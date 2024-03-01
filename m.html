@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COUNT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="m.css">
+</head>
+<body>
+    <h1 class="header" style="color: white;">COUNTING</h1>
+    <hr color="black">
+    <div class="foorm" style="text-align: center;">
+        <form >
+            <h1>Rs5</h1><img src="5.jpg "><br><input type="text" class="textbox" id="5c">
+            <h1>Rs10</h1><img src="products-16898.jpg"><br><input type="text" class="textbox" id="10c">
+            <h1>Rs20</h1><img src="20.jpg"><br><input type="text" class="textbox"id="20c">
+            <h1>Rs50</h1><img src="50.jpg" ><br><input type="text" class="textbox"id="50c">
+            <h1>Rs100</h1><img src="100.jpg" ><br><input type="text" class="textbox"id="100c" >
+            <h1>Rs500</h1><img src="500.jpg" ><br><input type="text" class="textbox "id="500c">
+            <h1>Rs1000</h1><img src="1000.png" ><br><input type="text" class="textbox"id="1000c" >
+            <p class="output" id = "output1"></p>
+            <div style="text-align: center;" class="sub">
+                <input  class="submit" type="button" id="click1" value="CALCULATE" onclick="fun1()">  
+    
+            </div>
+         
+        </form>
+    </div>
+
+    <script>
+        const c1 = document.getElementById("5c");
+        const c2 = document.getElementById("10c");
+        const c3 = document.getElementById("20c");
+        const c4 = document.getElementById("50c");
+        const c5 = document.getElementById("100c");
+        const c6 = document.getElementById("500c");
+        const c7 = document.getElementById("1000c");
+        const out = document.getElementById("output1");
+
+        function fun1()
+        {
+            out.innerHTML = c1.value*5 + c2.value*10 + c3.value*20 + c4.value*50 + c5.value*100 + c6.value*500 + c7.value*1000;
+        }
+ 
+    </script>
+    
+    
+</body>
+</html>

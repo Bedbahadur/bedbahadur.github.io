@@ -1,0 +1,37 @@
+.header{
+    text-align: center;
+
+}
+.output{
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+p.output{
+    border-style: solid;
+    margin-inline: 20%;
+}
+.submit{
+    font-family: "Madimi One", sans-serif;
+    font-size: 30px;
+    text-align: center  ;
+    background-color: white;
+    border-radius: 20px;
+
+}
+body{
+    background-color: aquamarine;
+}
+img{
+    width: 200px;
+    height: 90px ;
+}
+.textbox{
+    width: 100px;
+    height: 50px;
+}
+h1 {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
